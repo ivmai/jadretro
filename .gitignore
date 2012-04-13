@@ -8,8 +8,11 @@
 /bin/
 
 # Gradle related files
-/build/
 /.gradle/
+/build/
+/gradle/wrapper/
+/gradlew
+/gradlew.bat
 
 # Eclipse misc config and auto-generated files
 /.checkstyle
