@@ -41,4 +41,26 @@
     </developer>
   </developers>
 
+  <build>
+    <sourceDirectory>src/main/java</sourceDirectory>
+    <plugins>
+       <plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+         <artifactId>maven-jar-plugin</artifactId>
+         <configuration>
+           <archive>
+             <manifest>
+               <addClasspath>true</addClasspath>
+               <mainClass>net.sf.jadretro.Main</mainClass>
+             </manifest>
+           </archive>
+         </configuration>
+       </plugin>
+       <plugin>
+         <groupId>org.codehaus.mojo</groupId>
+         <artifactId>findbugs-maven-plugin</artifactId>
+       </plugin>
+    </plugins>
+  </build>
+
 </project>
