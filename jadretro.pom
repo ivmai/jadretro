@@ -11,8 +11,8 @@
 
   <licenses>
     <license>
-      <name>GNU General Public License, Version 2.0</name>
-      <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+      <name>GNU General Public License with Classpath exception</name>
+      <url>http://www.gnu.org/software/classpath/license.html</url>
     </license>
   </licenses>
 
